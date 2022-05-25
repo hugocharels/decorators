@@ -1,3 +1,7 @@
+"""
+Auteur: Charels Hugo
+Permet de stocker des résultat de fonction récursive déjà calculé
+"""
 
 def cache(func):
 	def wrapper(arg):
